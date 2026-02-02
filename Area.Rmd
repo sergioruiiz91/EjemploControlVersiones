@@ -15,4 +15,11 @@ r <- 0.5
 area_circulo <- 2*pi*r 
 area_circulo
 
-``` 
+```  
+# Area cuadrado 
+```{r}
+r <- 0.5
+area_cuadrado <- r ^ 2
+area_cuadrado
+
+```  
