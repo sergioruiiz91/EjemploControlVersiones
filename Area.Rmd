@@ -12,40 +12,47 @@ knitr::opts_chunk$set(echo = TRUE)
 # Area 
 ```{r} 
 r <- 0.5
-area_circulo <- 2*pi*r 
+area_circulo <- 2 * pi * r
 area_circulo
-
 ```  
 # Area cuadrado 
 ```{r}
 r <- 0.5
-area_cuadrado <- r ^ 2
+area_cuadrado <- r^2
 area_cuadrado
-
 ```   
 
 # Area Triangulo 
 ```{r}
-x <- 0.5 
+x <- 0.5
 y <- 0.8
-area_triangulo <- (x*y ) / 2 
+area_triangulo <- (x * y) / 2
 area_triangulo
-
 ```   
 
 # Area Triangulo Rectangulo
 ```{r}
-x <- 0.5 
+x <- 0.5
 y <- 0.8
-area_triangulo_rectangulo <- (x*y ) / 2 
+area_triangulo_rectangulo <- (x * y) / 2
 area_triangulo_rectangulo
-
 ```   
 # Area Triangulo 
 ```{r}
-x <- 0.5 
+x <- 0.5
 y <- 0.8
-area_triangulo <- (x*y ) / 2 
+area_triangulo <- (x * y) / 2
 area_triangulo
+```    
 
-```   
+# Area Trapecio 
+```{r}
+b <- 15
+B <- 25
+h <- 10
+area_trapecio <- ((b + B) * h) / 2
+area_trapecio
+```
+
+
+
