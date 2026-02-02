@@ -22,4 +22,13 @@ r <- 0.5
 area_cuadrado <- r ^ 2
 area_cuadrado
 
-```  
+```   
+
+# Area Triangulo 
+```{r}
+x <- 0.5 
+y <- 0.8
+area_triangulo <- (x*y ) / 2 
+area_triangulo
+
+```   
