@@ -1,0 +1,18 @@
+---
+title: "Area"
+author: "Sergio Ruiz Arévalo"
+date: "2026-02-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Area 
+```{r} 
+r <- 0.5
+area_circulo <- 2*pi*r 
+area_circulo
+
+``` 
